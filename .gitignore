@@ -6,24 +6,18 @@ dist/
 
 # 依赖
 node_modules/
-.pnpm-store/
 
 # IDE
 .idea/
 *.iml
 .vscode/
-.settings/
-.project
-.classpath
 
 # 日志与临时文件
 logs/
 *.log
-*.tmp
 .DS_Store
 Thumbs.db
 
-# 本地配置（含密码，勿提交）
+# 本地配置
 **/application-local.yml
-**/application-local.yaml
 .env.local
